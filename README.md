@@ -9,3 +9,11 @@ Storybookを試し使いするプロジェクトです。
 - [Next.js + Tailwind CSS + Storybook のセットアップ](https://zenn.dev/youichiro/articles/d625e602ed47c1)
 - [Install Tailwind CSS with Next.js](https://tailwindcss.com/docs/guides/nextjs)
 - [Install Storybook](https://storybook.js.org/docs/react/get-started/install)
+
+# Storybook の使い方
+
+## 起動する
+
+```
+npm run storybook
+```

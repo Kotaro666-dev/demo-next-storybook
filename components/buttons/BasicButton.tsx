@@ -1,6 +1,6 @@
 import React from "react";
 
-enum ButtonSize {
+export enum ButtonSize {
   SMALL = "small",
   MEDIUM = "medium",
   LARGE = "LARGE",
@@ -13,7 +13,7 @@ type Props = {
   onClick?: () => void;
 };
 
-export const Button: React.FC<Props> = ({
+export const BasicButton: React.FC<Props> = ({
   isOutlined = false,
   size = ButtonSize.MEDIUM,
   children,
