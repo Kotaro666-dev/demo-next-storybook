@@ -1,5 +1,5 @@
 import React from "react";
-import { BasicButton, ButtonSize } from "./BasicButton";
+import { BasicButton, ButtonSize } from "../../components/buttons/BasicButton";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 export default {
@@ -17,19 +17,19 @@ Default.args = {
 };
 
 export const OutlinedButton = Template.bind({});
-Default.args = {
+OutlinedButton.args = {
   isOutlined: true,
   children: "Outlined Button",
 };
 
 export const SmallButton = Template.bind({});
-Default.args = {
+SmallButton.args = {
   size: ButtonSize.SMALL,
   children: "Small Button",
 };
 
 export const OutlinedSmallButton = Template.bind({});
-Default.args = {
+OutlinedSmallButton.args = {
   isOutlined: true,
   size: ButtonSize.SMALL,
   children: "Outlined Small Button",
